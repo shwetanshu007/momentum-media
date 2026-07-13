@@ -57,13 +57,20 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center group py-0.5" aria-label="Momentumm Media — Home">
             <Image
-              src="/momentumm-logo.png"
-              alt="Momentumm Media"
-              width={180}
-              height={40}
-              priority
-              className="h-7 sm:h-9 w-auto object-contain"
-            />
+
+  src="/momentumm-logo.png"
+
+  alt="Momentumm Media"
+
+  width={180}
+
+  height={40}
+
+  priority
+
+  className="h-7 sm:h-9 w-auto object-contain"
+
+/>
           </Link>
 
           {/* Desktop links */}
